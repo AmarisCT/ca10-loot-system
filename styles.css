@@ -1,1 +1,65 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
 
+main
+{
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1,
+h2
+{
+    text-align: center;
+}
+
+.form-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input
+{
+    padding: 10px;
+}
+
+button
+{
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: green;
+}
+
+#message
+{
+    margin-top: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+#lootList
+{
+    margin-top: 15px;
+}
+
+#totalValue
+{
+    font-size: 24px;
+    font-weight: bold;
+}
