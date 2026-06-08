@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loot System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <main>
+        <h1>Dungeon Loot Tracker</h1>
+
+        <div class="form-container">
+
+            <label for="lootName">Loot Name</label>
+            <input type="text" id="lootName">
+
+            <label for="lootValue">Loot Value</label>
+            <input type="number" id="lootValue">
+
+            <button id="addLootButton">Add Loot</button>
+
+        </div>
+
+        <div id="message"></div>
+
+        <section>
+            <h2>Loot List</h2>
+            <div id="lootList"></div>
+        </section>
+
+        <section>
+            <h2>Total Loot Value</h2>
+            <div id="totalValue">$0</div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
